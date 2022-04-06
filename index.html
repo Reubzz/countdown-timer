@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Countdown Timer</h1>
+    </div>
+    <div class="main-container">
+        <div class="counter-el days">
+            <p id="days">0</p>
+            <span>Days</span>
+        </div>
+        <div class="counter-el-colons colons">
+            <p>:</p>
+        </div>
+        <div class="counter-el hours">
+            <p id="hours">0</p>
+            <span>Hours</span>            
+        </div>
+        <div class="counter-el-colons colons">
+            <p>:</p>
+        </div>
+        <div class="counter-el mins">
+            <p id="mins">0</p>
+            <span>Minutes</span>
+        </div>
+        <div class="counter-el-colons colons">
+            <p>:</p>
+        </div>
+        <div class="counter-el secs">
+            <p id="secs">0</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+
+    
+
+    <div class="control">
+        <p>Enter Date & Time</p>
+        <!-- <label for="futureDate">Enter Future Date and Time:</label><br> -->
+        <input id="futureDate" class="input is-info is-rounded" name="futureDate"  type="datetime-local">
+        <input type="submit" onclick="submitClick()" class="button is-info is-light is-normal" value="Confirm">
+        <!-- <button>
+            Sumbit
+        </button> -->
+    </div>
+
+    <script defer src="/app.js"></script>
+</body>
+</html>

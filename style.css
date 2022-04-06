@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0 !important;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#e94e4e, #f1b16b, #dfe154);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px 20px;
+    /* font-family: 'Rubik Microbe', cursive; */
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: rgb(43, 42, 42);
+}
+
+.main-container {
+    margin: 100px !important;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: rgb(43, 42, 42);
+    
+}
+
+.main-container .counter-el {
+    margin: 0 25px !important;
+    font-size: 80px;
+    line-height: 1;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.counter-el span {
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.counter-el-colons {
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.control {
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.control p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(43, 42, 42);
+}
+
+.button {
+    margin: 5px 80px !important;
+}
